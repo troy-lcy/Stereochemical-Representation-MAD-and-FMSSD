@@ -1,0 +1,12 @@
+# Similarity of BHA
+score_total = []
+score_1 = score(OUT + 'BHA/additive.csv')
+score_total.append(score_1)
+score_2 = score(OUT + 'BHA/aryl halide.csv')
+score_total.append(score_2)
+score_3 = score(OUT + 'BHA/ligand.csv')
+score_total.append(score_3)
+score_4 = score(OUT + 'BHA/base.csv')
+score_total.append(score_4)
+
+[0.5870035451577266, 0.47716107542588704, 0.6284858837862174, 0.3845046082949309]

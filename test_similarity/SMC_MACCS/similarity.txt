@@ -1,0 +1,15 @@
+# similarity of SMC
+score_total = []
+score_1 = score(OUT + 'SMC/aryl halide.csv')
+score_total.append(score_1)
+score_2 = score(OUT + 'SMC/boronic acid.csv')
+score_total.append(score_2)
+score_3 = score(OUT + 'SMC/base.csv')
+score_total.append(score_3)
+score_4 = score(OUT + 'SMC/ligand.csv')
+score_total.append(score_4)
+score_5 = score(OUT + 'SMC/solvent.csv')
+score_total.append(score_5)
+
+print(score_total)
+[0.4754212640601401, 0.7948703669953897, 0.23907191040649683, 0.30862762966364216, 0.1081459435626102]
